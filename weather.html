@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="shortcut icon" href="./assets/weather_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./weather.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Courgette&family=Merienda:wght@300..900&family=Sriracha&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Contrail+One&family=Courgette&family=Merienda:wght@300..900&family=Sriracha&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+  <main id="main_container">
+    <section id="middle_container">
+        <form >
+            <input type="text" id="location" placeholder="Enter your Location">
+            <input type="submit" value="Get Weather">
+        </form>
+        <article id="img_container">
+            <img src="./assets/null_img.gif" alt="" id="weather_img">
+            <h1 id="weather_condition">NULL</h1>
+        </article>
+
+        <article id="temp_humid">
+            <aside id="temp">
+                 <h1 >TEMPERATURE</h1>
+                 <p id="temperature">0<sup>0</sup>C</p>
+            </aside>   
+            <aside id="humid">
+                <h1 >HUMIDITY</h1>
+                <p id="humidity">0 KMPH</p>  
+           </aside>
+        </article>
+    
+    </section>
+  </main>
+ <script src="./weather.js"></script>   
+</body>
+</html>
